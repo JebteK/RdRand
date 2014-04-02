@@ -1,0 +1,38 @@
+Microsoft (R) Macro Assembler (x64) Version 11.00.50727.1   02/26/14 16:14:48
+rdrand.asm						     Page 1 - 1
+
+
+				; Execute rdrand in assembly 
+ 00000000			.code 
+				PUBLIC __RdRand 
+ 00000000			__RdRand PROC 
+ 00000000  0F C7 F0			rdrand eax
+ 00000003  75 06			jnz success
+ 00000005  B8 FFFFFFFF			mov eax, -1
+ 0000000A  C3				ret
+ 0000000B			success:
+ 0000000B  C3				ret
+ 0000000C			__RdRand ENDP 
+				End
+Microsoft (R) Macro Assembler (x64) Version 11.00.50727.1   02/26/14 16:14:48
+rdrand.asm						     Symbols 2 - 1
+
+
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+__RdRand . . . . . . . . . . . .	P 	 00000000 _TEXT	Length= 0000000C Public
+  success  . . . . . . . . . . .	L 	 0000000B _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+WIN_X64  . . . . . . . . . . . .	Text   	 
+
+	   0 Warnings
+	   0 Errors
