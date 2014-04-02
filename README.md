@@ -8,5 +8,4 @@ the random number generator. Helper functions have been created to generate rand
 
 This code will only execute on the latest Intel Ivy Bridge and higher CPUs.
 
-If you need access to a true RNG but don't have the latest Intel processors, you can use a service that has been setup 
-at https://rdrand.com
+If you need a compiled library, or need access to a true RNG but don't have the latest Intel processors, take a look at https://rdrand.com
