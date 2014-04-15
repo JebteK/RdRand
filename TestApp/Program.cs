@@ -17,7 +17,7 @@ namespace TestApp
             Console.WriteLine("Random Number: " + i);
             byte[] b = IntToBytes(i);
             Console.WriteLine("Base64: " + Convert.ToBase64String(b));
-
+            
             //.NET Library helper demo
             Console.WriteLine("API Key: " + RdRandom.GenerateAPIKey());
 
