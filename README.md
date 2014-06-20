@@ -12,6 +12,8 @@ The "Versions" directory has all the release builds in it. The latest release bu
 
 If you need access to a true RNG but don't have the latest Intel processors, take a look at https://rdrand.com
 
+NOTE: You will need to have the Visual C++ 2012 Redistributable installed  (http://www.microsoft.com/en-us/download/details.aspx?id=30679).
+
 License (MIT)
 ======
 
