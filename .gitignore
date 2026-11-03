@@ -157,3 +157,18 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+
+# rdrand.com client builds (scripts/build-clients.sh)
+/dist/
+clients/**/target/
+clients/native/dist/
+clients/node/prebuilds/
+clients/node/LICENSE
+clients/node/node_modules/
+clients/kotlin/build/
+clients/kotlin/.gradle/
+clients/kotlin/src/main/resources/com/jebtek/rdrand/native/
+clients/kotlin/src/main/resources/META-INF/LICENSE
+clients/dotnet/native/
+clients/dotnet/out/
+clients/dotnet/selftest-out/

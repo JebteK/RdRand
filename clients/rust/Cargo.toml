@@ -1,0 +1,31 @@
+[package]
+name = "rdrand-client"
+version = "2.0.0"
+edition = "2021"
+rust-version = "1.80"
+description = "Hardware random numbers from the local CPU (RDRAND on x86_64, RNDR on ARM), falling back to the rdrand.com API"
+license = "MIT"
+homepage = "https://rdrand.com"
+readme = "README.md"
+keywords = ["random", "rdrand", "rndr", "rng", "hardware"]
+categories = ["cryptography", "api-bindings"]
+
+[lib]
+name = "rdrand_client"
+
+[features]
+default = ["service"]
+# The rdrand.com API fallback. Without it the crate only uses the local CPU.
+service = ["dep:ureq", "dep:base64"]
+
+[dependencies]
+base64 = { version = "0.22", optional = true }
+ureq = { version = "3", optional = true }
+
+[[test]]
+name = "service"
+required-features = ["service"]
+
+[[example]]
+name = "demo"
+required-features = ["service"]

@@ -1,0 +1,24 @@
+{
+  "name": "@jebtek/rdrand",
+  "version": "2.0.0",
+  "description": "Hardware random numbers from the local CPU (RDRAND on x86_64, RNDR on ARM), falling back to the rdrand.com API",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "prebuilds/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["random", "rdrand", "rndr", "rng", "hardware", "true random"],
+  "homepage": "https://rdrand.com",
+  "author": "JebteK, LLC",
+  "license": "MIT"
+}
