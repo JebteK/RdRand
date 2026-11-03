@@ -6,6 +6,7 @@ rust-version = "1.80"
 description = "Hardware random numbers from the local CPU (RDRAND on x86_64, RNDR on ARM), falling back to the rdrand.com API"
 license = "MIT"
 homepage = "https://rdrand.com"
+repository = "https://github.com/JebteK/RdRand"
 readme = "README.md"
 keywords = ["random", "rdrand", "rndr", "rng", "hardware"]
 categories = ["cryptography", "api-bindings"]

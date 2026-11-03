@@ -16,6 +16,8 @@
     <Description>Hardware random numbers from the local CPU (RDRAND on x86_64, RNDR on ARM), falling back to the rdrand.com API.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://rdrand.com</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/JebteK/RdRand</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>random rdrand rndr rng hardware true-random</PackageTags>
   </PropertyGroup>

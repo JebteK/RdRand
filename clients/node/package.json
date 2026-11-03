@@ -17,8 +17,26 @@
   "scripts": {
     "test": "node --test"
   },
-  "keywords": ["random", "rdrand", "rndr", "rng", "hardware", "true random"],
+  "keywords": [
+    "random",
+    "rdrand",
+    "rndr",
+    "rng",
+    "hardware",
+    "true random"
+  ],
   "homepage": "https://rdrand.com",
   "author": "JebteK, LLC",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JebteK/RdRand.git",
+    "directory": "clients/node"
+  },
+  "bugs": {
+    "url": "https://github.com/JebteK/RdRand/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
